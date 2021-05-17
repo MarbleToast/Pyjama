@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lexer">
+      <UniqueIdentifier>{174bcc07-3c21-486d-8fd4-e76189f9f303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="error">
+      <UniqueIdentifier>{3ab0eaff-f99b-48b3-86b1-fe3ac7e6162e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser">
+      <UniqueIdentifier>{d9c638ed-0f65-4963-857d-bd345e1ecad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser\tree">
+      <UniqueIdentifier>{dd96e9bc-4a03-44be-ba0b-bd286f9d8563}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pj_InStream.cpp">
+      <Filter>lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Token.cpp">
+      <Filter>lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="pj_MaxMunch.cpp">
+      <Filter>lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Lexer.cpp">
+      <Filter>lexer</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Error.cpp">
+      <Filter>error</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Parser.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Types.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_TokenStream.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_TypeRegistry.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Node.cpp">
+      <Filter>parser\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Expression.cpp">
+      <Filter>parser\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_LiteralExpression.cpp">
+      <Filter>parser\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="pj_Statement.cpp">
+      <Filter>parser\tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pj_InStream.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Token.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_TokenRegistry.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_MaxMunch.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Lexer.h">
+      <Filter>lexer</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Error.h">
+      <Filter>error</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Parser.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Types.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_TypeRegistry.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_TokenStream.h">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Node.h">
+      <Filter>parser\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Expression.h">
+      <Filter>parser\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_LiteralExpression.h">
+      <Filter>parser\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="pj_Statement.h">
+      <Filter>parser\tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
